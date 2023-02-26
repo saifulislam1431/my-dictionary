@@ -5,6 +5,28 @@
     margin: 0;
 }
 
+.search-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#search-field {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(221, 51, 221);
+}
+
+.find {
+    padding: 8px;
+    border: none;
+    background-color: plum;
+    border-radius: 20px;
+}
+
 .container {
     padding: 40px 100px;
 }
@@ -94,4 +116,15 @@
 
 #example {
     color: darkgrey;
+}
+
+.foot-title {
+    padding-top: 20px;
+    color: darkgrey;
+    font-size: 18px;
+}
+
+#source {
+    margin: 0 10px;
+    color: black;
 }
